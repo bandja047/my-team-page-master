@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: "Poppins";
+}
+
+#root{
+    
+   
+    height: 100vh;
+    
+}
+
+h1{
+    font-family:"PT Serif"
+
+}
+
+.header{
+    display: flex;
+    margin: 54px;
+}
+
+.header-info{
+    flex:1;
+    margin-left:24px;
+    font-size: 12px;
+        
+   
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    height:70vh;
+    justify-content: space-around;
+    text-align: center;
+   
+    
+}
+
+img{
+    height: 100px;
+    height: 180px;
+    
+   
+}
+
+.img-sa{
+    align-self: flex-end;
+}
+
+@media (max-width:375px) {
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        margin:18px;
+    }
+
+    .header-info{
+        flex:1;
+        margin-left:0px;
+        font-size: 12px;
+            
+        border-style: dashed;
+    }
+   
+    
+    img{
+        height: 20px;
+        height: 100px;
+       
+       
+    }
+    
+}
